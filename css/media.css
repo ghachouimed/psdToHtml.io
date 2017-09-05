@@ -1,0 +1,91 @@
+/*==========carousel==============*/
+@media(min-width:550px) and (max-width:890px){
+	header .carousel-caption{
+	bottom:19%;	
+	}
+	header .carousel-caption img{
+		display:none;
+	}
+	
+	#contact .social li{
+		margin-right:3px;
+	}
+	#education .skew p{
+		text-align:left;
+	}
+}
+
+@media(max-width:550px){
+header .carousel-caption img,
+	header .carousel-caption a
+	{
+		display:none;
+	}
+	header .carousel-caption{
+		bottom:10%;
+	}
+}
+
+@media(min-width:891px) and (max-width:1174px){
+	header .carousel-caption{
+		bottom:9%;
+	}
+}
+
+
+@media(max-width:890px){
+h1{
+		font-size:30px;
+	}
+}
+/*================about==================*/
+@media(max-width:767px){
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background:#000;
+}
+
+.container > .navbar-header{
+	background:#000;
+	}
+	header{
+		    position: relative;
+    top: 50px;
+    padding-bottom: 50px;
+	}
+	
+	.navbar-nav{
+		float:left!important;
+		width:100%;
+}
+	.nav > li{
+		margin-bottom:3px;
+	}
+	
+	.nav > li:hover{
+		background:#fdda1a;
+	}
+	
+	
+	#about  .finx-in-xs{
+		max-width:100%!important;
+		margin-left:0px!important;
+		margin-right:5px!important;
+	}
+	#about .first-row .second-col >div:before,
+	#about .third-row .second-col >div:before{
+		left:unset!important;
+		right:-8px!important;
+		
+	}
+	#about .first-row>div,
+	#about .second-row>div,
+	#about .third-row>div{
+		border-right:1px solid #cac4c4!important;
+		border-left:unset!important;
+	}
+	#about .first-row>div:after,
+	#about .second-row>div:after,
+	#about .third-row>div:after{
+		display:none;
+	}
+}
